@@ -1,0 +1,15 @@
+# Runtime data created by the assistant
+todo.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+.mypy_cache/
+
+# OS
+.DS_Store

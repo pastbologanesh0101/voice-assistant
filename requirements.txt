@@ -1,0 +1,5 @@
+# Optional/soft dependency: only needed for spoken (TTS) output via the
+# OS's built-in offline speech engine. The assistant's core logic and the
+# full test suite work fine without it (Speaker fails gracefully to a
+# silent no-op when pyttsx3 is missing or no audio device is present).
+pyttsx3>=2.90
